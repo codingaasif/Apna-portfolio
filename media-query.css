@@ -1,0 +1,34 @@
+@media only screen and (min-width: 200px) and (max-width: 567px) {
+  .header {
+    width: 100%;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    height: 8%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: rgb(7, 85, 91);
+  }
+}
+@media only screen and (min-width: 568px) and (max-width: 992px) {
+  .header {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 567px) {
+  .home-content {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
